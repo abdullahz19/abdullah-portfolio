@@ -2,7 +2,7 @@
 
 import { useRef, useState, FormEvent } from 'react'
 import { motion, useInView } from 'framer-motion'
-import { FiSend, FiMail, FiMapPin, FiPhone, FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi'
+import { FiSend, FiMail, FiMapPin, FiPhone,  FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi'
 
 const contactInfo = [
   { icon: FiMail, label: 'Email', value: 'Abdullah.19062004@gmail.com', href: 'mailto:Abdullah.19062004@gmail.com' },
