@@ -10,11 +10,7 @@ const contactInfo = [
   { icon: FiMapPin, label: 'Location', value: 'Karachi, Pakistan', href: '#' },
 ]
 
-const socials = [
-  { icon: FiLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/abdullah-zahoor-48b2652a1' },
-  { icon: FiFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1CKy8LKQQk/' },
-  { icon: FiInstagram, label: 'Instagram', href: 'https://www.instagram.com/abdullah_zahoor2004?igsi=MTdhMTJ0eW52dmZhNA==' },
-]
+
 
 export default function Contact() {
   const ref = useRef(null)
@@ -107,24 +103,8 @@ export default function Contact() {
               ))}
             </div>
 
-            {/* Socials */}
-            <div className="flex gap-4">
-              {socials.map(({ icon: Icon, label, href }) => (
-                <motion.a
-                  key={label}
-                  href={href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  whileHover={{ scale: 1.1, y: -3 }}
-                  whileTap={{ scale: 0.95 }}
-                  className="flex items-center gap-2 px-5 py-3 glass rounded-full text-sm font-body font-medium transition-all"
-                  style={{ color: 'var(--text)' }}
-                >
-                  <Icon size={16} style={{ color: 'var(--accent)' }} />
-                  {label}
-                </motion.a>
-              ))}
-            </div>
+            
+           
 
             {/* Fun element */}
             <motion.div
