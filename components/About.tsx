@@ -88,8 +88,7 @@ export default function About() {
               <p className="text-lg leading-relaxed font-body">
                 I'm <span style={{ color: 'var(--text)', fontWeight: 600 }}>Abdullah Zahoor</span>, a
                 passionate {' '}
-                <span style={{ color: 'var(--accent)' }}>Software Engineer</span> at
-                Ziauddin University, Karachi.
+                <span style={{ color: 'var(--accent)' }}>Software Engineer.</span> 
               </p>
               <p className="leading-relaxed font-body">
                 I love turning complex problems into elegant, functional software. From e-commerce
@@ -97,8 +96,9 @@ export default function About() {
                 that make a difference.
               </p>
               <p className="leading-relaxed font-body">
-                Currently seeking internship or full-time opportunities where I can apply my skills
-                in web development, mobile apps, and software engineering.
+                Open to full-time opportunities where I can contribute my skills in web development, 
+                mobile applications, and software engineering while continuing to learn and grow
+                as a Software Engineer.
               </p>
             </div>
 
@@ -108,7 +108,6 @@ export default function About() {
                 ['Location', 'Karachi, Pakistan'],
                 ['Email', 'Abdullah.19062004@gmail.com'],
                 ['Phone', '+92 335 330 3381'],
-                ['University', 'Ziauddin University'],
               ].map(([key, val]) => (
                 <div key={key} className="flex items-center gap-3 font-body">
                   <span className="text-xs font-mono w-20 shrink-0" style={{ color: 'var(--accent)' }}>
