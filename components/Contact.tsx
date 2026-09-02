@@ -11,7 +11,6 @@ const contactInfo = [
 ]
 
 const socials = [
-  { icon: FiGithub, label: 'GitHub', href: 'https://github.com/abdullahz19' },
   { icon: FiLinkedin, label: 'LinkedIn', href: 'https://www.linkedin.com/in/abdullah-zahoor-48b2652a1' },
   { icon: FiFacebook, label: 'Facebook', href: 'https://www.facebook.com/share/1CKy8LKQQk/' },
   { icon: FiInstagram, label: 'Instagram', href: 'https://www.instagram.com/abdullah_zahoor2004?igsi=MTdhMTJ0eW52dmZhNA==' },
