@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | Abdullah Zahoor',
   },
   description:
-    'Abdullah Zahoor — Software Engineering student at Ziauddin University, Karachi, and Full Stack Developer specializing in React, Flutter, and Next.js. View projects, skills, and get in touch.',
+    'Abdullah Zahoor — Software Engineer and Full Stack Developer specializing in React, Flutter, and Next.js. View projects, skills, and get in touch.',
   keywords: [
     'Abdullah',
     'Abdullah Zahoor',
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abdullah Zahoor | Software Engineer & Full Stack Developer',
     description:
-      'Portfolio of Abdullah Zahoor — Software Engineering student and Full Stack Developer specializing in React, Flutter, and Next.js.',
+      'Portfolio of Abdullah Zahoor — Software Engineer and Full Stack Developer specializing in React, Flutter, and Next.js.',
     images: ['/images/abdullah.jpg'],
   },
 }
@@ -79,7 +79,7 @@ const personJsonLd = {
   image: `${siteUrl}/images/abdullah.jpg`,
   jobTitle: 'Software Engineer & Full Stack Developer',
   description:
-    'Software Engineering student at Ziauddin University, Karachi, and Full Stack Developer specializing in React, Flutter, and Next.js.',
+    'Software Engineer and Full Stack Developer specializing in React, Flutter, and Next.js.',
   alumniOf: {
     '@type': 'CollegeOrUniversity',
     name: 'Ziauddin University',
