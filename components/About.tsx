@@ -8,8 +8,7 @@ import { FiCode, FiLayers, FiZap, FiGlobe } from 'react-icons/fi'
 const stats = [
   { value: '10+', label: 'Projects Built' },
   { value: '5+', label: 'Certifications' },
-  { value: '3', label: 'Languages' },
-  { value: '7th', label: 'Semester' },
+  
 ]
 
 const traits = [
