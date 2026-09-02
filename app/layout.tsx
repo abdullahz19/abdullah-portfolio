@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     siteName: 'Abdullah Zahoor',
     title: 'Abdullah Zahoor | Software Engineer & Full Stack Developer',
     description:
-      'Portfolio of Abdullah Zahoor — Software Engineering student and Full Stack Developer specializing in React, Flutter, and Next.js.',
+      'Portfolio of Abdullah Zahoor — Software Engineer and Full Stack Developer specializing in React, Flutter, and Next.js.',
     locale: 'en_US',
     images: [
       {
