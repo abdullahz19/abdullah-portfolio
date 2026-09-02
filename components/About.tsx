@@ -79,7 +79,7 @@ export default function About() {
                 className="absolute -top-4 -right-4 px-3 py-1.5 rounded-full text-xs font-mono font-semibold text-black"
                 style={{ background: 'var(--accent)' }}
               >
-                SE Student
+                Software Engineer
               </motion.div>
             </div>
 
