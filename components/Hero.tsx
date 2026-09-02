@@ -9,8 +9,8 @@ import { FiGithub, FiLinkedin, FiMail, FiFacebook, FiInstagram, FiArrowDown, FiD
 const Scene3D = dynamic(() => import('./Scene3D'), { ssr: false })
 
 const socialLinks = [
-  { icon: FiFacebook, href: 'https://facebook.com/your-username', label: 'Facebook' },
-  { icon: FiInstagram, href: 'https://instagram.com/your-username', label: 'Instagram' },
+  { icon: FiFacebook, href: 'https://www.facebook.com/share/1CKy8LKQQk/', label: 'Facebook' },
+  { icon: FiInstagram, href: 'https://www.instagram.com/abdullah_zahoor2004?igsi=MTdhMTJ0eW52dmZhNA==', label: 'Instagram' },
   { icon: FiGithub, href: 'https://github.com/abdullahz19', label: 'GitHub' },
   { icon: FiLinkedin, href: 'https://www.linkedin.com/in/abdullah-zahoor-48b2652a1', label: 'LinkedIn' },
   { icon: FiMail, href: 'mailto:Abdullah.19062004@gmail.com', label: 'Email' },
